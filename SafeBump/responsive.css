@@ -1,0 +1,147 @@
+@media (min-width: 350px) and (max-width: 650px){
+    
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    header #nav-bar #safe-left{
+        font-size: 1rem;
+    }
+    
+    header #nav-bar #safe-hbc ul{
+        display: none;
+    }
+
+    header #safe-access ul{
+        display: none;
+    }
+
+    header #mheader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header #mheader #text h1 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        width: 150%;
+    }
+    
+    header #mheader #text p {
+        font-size: 1.3rem;
+        line-height: 1.8;
+        text-align: center;
+        width: 150%;
+        margin: auto;
+    }
+
+
+    header #mheader #text #googleplay {
+        display: none;
+    }
+
+    header #mheader  .halfcircle{
+       display: none;
+    }
+
+    
+section#sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.5;
+    background-color: #fff;
+    height: 100px;
+    z-index: 1;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+section#sponsors img {
+    width: 150px;
+}
+
+section#sponsors img:first-child{
+    display: none;
+}
+
+section#sponsors img:last-child{
+    display: none;
+}
+
+section#content {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+section#content .first-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+section#content .first-row h1{
+    width: 800px;
+    margin-right: 100px;
+    position: absolute;
+}
+
+section#content .first-row h1::after{
+   display: none;
+}
+
+section#content .second-row {
+    width: 100%;
+} 
+
+section#content .download{
+    width: 80%;
+    line-height: 1.4;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer .container .col-1 p {
+    font-size: 1.2rem;
+}
+
+footer .container .col-1 ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+footer .container .col-1 ul li {
+    margin-bottom: 20px;
+}
+
+
+footer .container .col-2 h2{
+    color: #fff;
+    position: relative;
+    margin: 30px 0;
+}
+
+footer .container .col-2 h2::after{
+   display: none;
+}
+
+footer .container .col-3 p{
+    margin: 50px auto;
+}
+
+footer .container .col-3 .icons {
+    text-align: center;
+}
+
+}

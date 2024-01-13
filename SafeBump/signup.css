@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    /* font-size: 10px; */
+}
+
+#root {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    position: relative;
+}
+
+header #nav-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    background-color: #fff;
+}
+
+header #nav-bar #safe-left{
+    font-size: 1.3rem;
+}
+
+header #nav-bar #safe-left a {
+    text-decoration: none;
+    color: #000;
+}
+
+header #nav-bar #safe-left span{
+    color: #06AAE4;
+}
+
+
+header #nav-bar #safe-hbc ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #nav-bar #safe-hbc ul li {
+    font-size: 1.1rem;
+    padding: 0 40px;
+    font-weight: 400;
+}
+
+header #nav-bar #safe-hbc ul li a{
+    text-decoration: none;
+    color: #829095;
+}
+
+header #safe-access {
+    visibility: hidden;
+}
+
+
+section.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 50px auto;
+} 
+
+
+section.signup .col-1 p a {
+    text-decoration: none;
+    color: #F90;
+}
+
+section.signup .col-2 {
+    text-align: center;
+}
+
+section.signup .col-2 h2 {
+    margin-bottom: 10px;
+}
+
+section.signup .col-2 p{
+    color: #829095;
+}
+
+
+section.signup .col-3  p a{
+    text-decoration: none;
+    color: #F90;
+}
+section.information {
+    width: 70%;
+    margin: auto;
+}
+
+section.information{
+    width:  30%;
+    margin: auto;
+}
+
+section.information .signwith {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section.information .signwith  .google {
+    min-width: 40%;
+} */
+
+section.information .signwith  .google a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #06AAE4;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #06AAE4;
+}
+
+
+section.information .signwith  .google  img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+section.information .signwith .socials {
+    color: #06AAE4;
+    border: 1px solid #06AAE4;
+    padding: 15px 25px;
+    border-radius: 10px;
+    min-width: 40%;
+}
+
+section.information .signwith .socials p a {
+    color: #06AAE4;
+    text-decoration: none;
+}
+
+
+
+section.information .firstinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+}
+
+section.information .firstinfo::before{
+    content: "";
+    color: #F90;
+    background-color: #F90;
+    position: absolute;
+    top: 20px;
+    left: -48px;
+    width: 90px;
+    height: 2px;
+}
+
+section.information .firstinfo::after{
+    content: "";
+    color: #F90;
+    background-color: #F90;
+    position: absolute;
+    right: -48px;
+    top: 20px;
+    width: 90px;
+    height: 2px;
+}
+
+section.information .firstinfo  p.number {
+    color: #fff;
+    background-color: #06AAE4;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.information .firstinfo  p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+section.information form {
+    width: 100%;
+    margin: 30px 0;
+}
+
+section.information form label {
+    font-size: 1.2rem;
+}
+
+section.information form  input{
+    font-size: 1.2rem;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+section.information form  input:focus{
+    outline: none;
+}
+
+section.information form button{
+    font-size: 1.1rem;
+    width: 100%;
+    color: #fff;
+    background-color: #06AAE4;
+    padding: 15px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+section.information form button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* SIGNUP 2 */
+
+form select {
+    width: 100%;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+form select:focus{
+    outline: none;
+}
+
+
+.conditions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#yes{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#yes label {
+    margin-left: 10px;
+}
+
+.cond {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 15px 25px;
+    margin: 10px 0;
+}
+
+#no{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#no label {
+    margin-left: 10px;
+}
+
+
+.lifestyle {
+    background-color: #f5f5f5;
+    padding: 15px 25px;
+    margin: 10px 0;
+}
+
+#diet {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+#diet input{
+    width: 12px;
+    margin-right: 10px;
+}
+
+#exercise {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+#exercise input{
+    width: 12px;
+    margin-right: 10px;
+}
+
+#relevance {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+#relevance input{
+    width: 12px;
+    margin-right: 10px;
+}
+
+
+
+/* LOGIN STYLES  */
+
+
+.forgotp {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    color: #F90;
+
+}
+
+.forgotp a {
+    text-decoration: none;
+    color: #F90;
+    font-weight: 600;
+}
+
+section.rinformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.rinformation .image {
+    width: 70px;
+
+}
+
+section.rinformation .image img {
+    width: 100%;
+}
+
+section.rinformation p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+
+
+section.rinformation button#proceed{
+    font-size: 1.1rem;
+    width: 30%;
+    color: #fff;
+    background-color: #06AAE4;
+    padding: 15px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}   
+
+section.rinformation button#proceed a {
+    text-decoration: none;
+    color: #fff;
+}
